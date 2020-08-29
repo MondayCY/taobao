@@ -1,0 +1,558 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        @font-face {
+            font-family: 'iconfont';
+            src: url('iconfont.eot');
+            src: url('iconfont.eot?#iefix') format('embedded-opentype'), url('iconfont.woff2') format('woff2'), url('iconfont.woff') format('woff'), url('iconfont.ttf') format('truetype'), url('iconfont.svg#iconfont') format('svg');
+        }
+        
+        .iconfont {
+            font-family: "iconfont" !important;
+            font-size: 16px;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        .box,
+        .txpu,
+        .zhuti,
+        .shang,
+        .shangtu {
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        .shang {
+            height: 33px;
+            background-color: #F5F5F5;
+            border: 1px solid #F5F5F5;
+        }
+        
+        .head {
+            width: 1190px;
+            position: relative;
+            height: 33px;
+            margin: 0 auto;
+            margin-top: -1px;
+        }
+        
+        .bgcolor {
+            background-color: #00E6DF;
+        }
+        
+        .txpu {
+            width: 100%;
+            height: 65px;
+        }
+        
+        .txpu a {
+            display: block;
+            width: 1190px;
+            margin: 0 auto;
+        }
+        
+        .txpu a img {
+            width: 1190px;
+            height: 65px;
+        }
+        
+        .bgacolor {
+            background-color: #FF0000;
+        }
+        
+        .fontbcontent:hover {
+            color: #FF2A00;
+        }
+        
+        .font {
+            color: #6C6C6C;
+            font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+        }
+        
+        .fonta {
+            color: #FF2A00;
+            font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+        }
+        
+        .fontc {
+            color: #9c9c9c;
+        }
+        
+        .yonghu li {
+            float: left;
+        }
+        
+        .fontd {
+            color: #3C3C3C;
+            font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+        }
+        
+        .fontb {
+            color: white;
+            font: 16px tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+        }
+        
+        .fontf {
+            font: 14px tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+            color: white;
+        }
+        
+        .fontg {
+            color: #666666;
+            font: 14px tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+        }
+        
+        .jianju {
+            margin-left: 6px;
+            margin-right: 6px;
+        }
+        
+        .zuo {
+            line-height: 33px;
+            margin-left: 30px;
+        }
+        
+        .zuo li {
+            margin-left: 4px;
+            margin-right: 4px;
+        }
+        
+        .you {
+            float: right;
+            line-height: 33px;
+            margin-right: 30px;
+        }
+        
+        .you li {
+            float: left;
+        }
+        
+        .tbwang {
+            width: 1190px;
+            margin: 0 auto;
+            height: 120px;
+            position: relative;
+        }
+        
+        .kuang {
+            position: relative;
+            width: 600px;
+            margin-left: 350px;
+            top: -30px;
+        }
+        
+        .xuanze {
+            width: 612px;
+            height: 22px;
+            float: right;
+            padding-top: 2px;
+        }
+        
+        .kuang ul li {
+            float: left;
+            position: relative;
+            left: 10px;
+            margin-left: 19px;
+            margin-top: 1px;
+        }
+        
+        .baobei {
+            font-weight: bold;
+            color: white;
+            font-size: 12px;
+            width: 36px;
+            height: 22px;
+            line-height: 22px;
+            border-radius: 5px 5px 0 0;
+            text-align: center;
+            background: -webkit-linear-gradient(to right, #FF8300, #FF4500);
+            background: linear-gradient(to right, #FF8300, #FF4500);
+        }
+        
+        .wenzi {
+            width: 551px;
+            height: 40px;
+            border: 2px solid #FF3D00;
+            border-radius: 20px;
+            padding-left: 8px;
+        }
+        
+        .wenzi:visited {
+            border: 2px solid #FF3D00;
+            border-radius: 20px;
+        }
+        
+        .sousuo {
+            position: relative;
+            border: none;
+            border-radius: 0 30px 30px 0;
+            font-weight: 700;
+            text-align: center;
+            background: -webkit-linSear-gradient(to right, #FF8300, #FF4500);
+            background: linear-gradient(to right, #FF8300, #FF4500);
+            color: white;
+            width: 74px;
+            height: 45px;
+            margin-left: 10px;
+            padding-top: 1.5px;
+            padding-bottom: 3px;
+            font: 18px tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+        }
+        
+        .shuru {
+            width: 800px;
+            height: 40px;
+            margin: auto;
+            margin-top: -15px;
+        }
+        
+        .paizhao {
+            margin-left: -70px;
+            position: relative;
+        }
+        
+        .tu {
+            display: inline;
+            position: relative;
+            top: 30px;
+            margin-left: 150px;
+        }
+        
+        .fenlei {
+            width: 586px;
+            height: 18px;
+            margin-left: 370px;
+            margin-right: auto;
+            margin-top: 0px;
+        }
+        
+        .fenlei ul li {
+            float: left;
+            margin-left: 5px;
+        }
+        
+        .fenlei .liebiao li a:hover {
+            color: #FF0000;
+        }
+        
+        .zhuti {
+            width: 100%;
+            height: 700px;
+            background-color: #F4F4F4;
+        }
+        
+        .zhongbu {
+            width: 1190px;
+            height: 600px;
+            margin: 0 auto;
+            padding-right: 150px;
+        }
+        
+        .youhaohuo {
+            width: 1190px;
+            height: 100px;
+            background-color: powderblue;
+            margin: auto;
+        }
+        
+        .leibie {
+            margin-left: 70px;
+            width: 1190px;
+            height: 30px;
+            background: -webkit-linSear-gradient(to right, #FF8300, #FF4500);
+            background: linear-gradient(to right, #FF8300, #FF4500);
+        }
+        
+        .h2 {
+            line-height: 30px;
+            text-align: center;
+            width: 190px;
+            height: 30px;
+            background-color: #FF3D00;
+            float: left;
+        }
+        
+        .leibie ul,
+        .leibie ul li {
+            float: left;
+        }
+        
+        .leibie ul li {
+            margin-left: 15px;
+        }
+        
+        .leibie ul {
+            line-height: 30px;
+        }
+        
+        .shuxian {
+            margin-top: 7px;
+        }
+        
+        .lei {
+            border: 1px solid #FF3D00;
+            margin-left: 70px;
+            width: 188px;
+            height: 520px;
+            background-color: white;
+            float: left;
+            position: absolute;
+        }
+        
+        .lei ul li {
+            padding-left: 15px;
+            padding-top: 13px;
+            position: relative;
+        }
+        
+        .lei ul li a {
+            margin-left: 3px;
+        }
+        
+        .lei ul i {
+            position: relative;
+            float: right;
+            top: -15px;
+        }
+        
+        .shangtu {
+            width: 800px;
+            top: -515px;
+            float: left;
+            position: relative;
+            margin-left: 200px;
+        }
+        
+        .xiaotub {
+            float: right;
+            margin-right: 110px;
+        }
+        
+        .xiaotu {
+            float: left;
+            margin-top: -500px;
+            margin-left: 200px;
+            width: 520px;
+            height: 190px;
+            background-color: white;
+        }
+        
+        .xiaotua,
+        .xiaotuc {
+            float: left;
+            position: absolute;
+            margin-top: 10px;
+        }
+        
+        .xiaotuc {
+            margin-left: 265px;
+        }
+        
+        .xiaotud {
+            display: block;
+            margin-left: 730px;
+            position: absolute;
+            margin-top: -200px;
+        }
+        
+        .xinxi {
+            width: 290px;
+            height: 500px;
+            float: right;
+            background-color: white;
+            margin-right: -70px;
+            margin-top: 10px;
+        }
+        
+        .touxiang {
+            margin-top: 5px;
+            width: 290px;
+            height: 90px;
+            background-color: white;
+            text-align: center;
+            position: relative;
+        }
+        
+        .toux {
+            width: 50px;
+            border-radius: 50px;
+            position: relative;
+            margin-bottom: -5px;
+        }
+        
+        .fontt {
+            color: #ff5000;
+            font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+        }
+        
+        .fontz {
+            position: relative;
+            color: #FFC702;
+            margin-left: 20px;
+            z-index: 100;
+            top: 2px;
+        }
+        
+        .luyao {
+            display: inline-block;
+            width: 290px;
+            height: 16px;
+            line-height: 16px;
+            position: relative;
+        }
+        
+        .touxiang p {
+            margin-top: -5px;
+            margin-left: -15px;
+        }
+        
+        .taobi,
+        .huiyuan {
+            background-color: #FFE3DA;
+            border-radius: 20px;
+            display: inline-block;
+            height: 16px;
+            line-height: 16px;
+            position: relative;
+        }
+        
+        .taobi {
+            margin-left: -13px;
+            width: 90px;
+        }
+        
+        .huiyuan {
+            margin-left: -15px;
+            width: 80px;
+        }
+        
+        .huo {
+            position: relative;
+            width: 290px;
+            height: 40px;
+            background-color: white;
+        }
+        
+        .fonts {
+            display: block;
+            color: #F40;
+            font: 14px tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+        }
+        
+        .fontp {
+            color: #3C3C3C;
+            font: 12px tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+        }
+        
+        .gonggao {
+            width: 290px;
+            height: 77px;
+        }
+        
+        .gonggao ul {
+            padding-top: 10px;
+            text-align: center;
+            position: relative;
+            margin-left: 5px;
+        }
+        
+        .gonggao ul li {
+            float: left;
+            margin-left: 25px;
+        }
+        
+        .gonggao ul li a:hover {
+            color: #F40;
+        }
+        
+        .gonggao span {
+            position: relative;
+            margin-left: 30px;
+            top: 10px;
+        }
+        
+        .huo a {
+            text-align: center;
+            float: left;
+            margin-left: 25px;
+        }
+        
+        .fenxiang img {
+            width: 290px;
+            height: 65px;
+        }
+        
+        .tubiao {
+            width: 290px;
+            height: 155px;
+            margin-top: 10px;
+        }
+        
+        .tubiao a {
+            text-align: center;
+            float: left;
+            width: 71.55px;
+            height: 55px;
+            border-right: 1px solid #F4F4F4;
+            border-top: 1px solid #F4F4F4;
+            padding-top: 10px;
+        }
+        
+        .tubiao a span {
+            font-weight: 700;
+            font-size: 20px!important;
+        }
+        
+        .tubiao a p {
+            margin-top: 5px;
+        }
+        
+        .ali {
+            margin-top: -22px;
+            width: 290px;
+            height: 30px;
+            line-height: 30px;
+        }
+        
+        .ali span {
+            float: right;
+            margin-top: -20px;
+            position: relative;
+        }
+        
+        .app {
+            width: 290px;
+            height: 45px;
+            margin-top: 5px;
+        }
+        
+        .App {
+            padding-top: 8px;
+            padding-left: 10px;
+            position: relative;
+            color: #3C3C3C;
+            font: 14px tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+        }
+        
+        .app ul li {
+            float: left;
+            margin-left: 20px;
+        }
+        
+        .app ul li a img {
+            width: 32px;
+            height: 32px;
+        }
